@@ -1,0 +1,379 @@
+
+<!-- 
+    Name: Md Abu Talha Ibna Riaz Hassan
+    Matric number: A20EC3022  
+    Section: 07
+    Assignment 2
+    Course: Web programming
+
+-->
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        My Profile Page
+    </title>
+
+
+    <!-- UNCOMMENT THE LINE BELOW AND COMMENT THE OTHER LINE IN ORDER TO USE THE "profileStyleTwo.css" file -->
+
+    <!-- <link rel="stylesheet" href="profileStyleOne.css">   -->
+
+    <link rel="stylesheet" href="profileStyleTwo.css"> 
+
+
+</head>
+
+
+
+
+<body>
+    <div id="wholePage">
+
+   <div id="container">
+       
+    <div id="header">
+            <div id="profileImage"> <img src="profile.png" alt="profile" ALIGN="left" style="width:150px ;height:150px"/> </div>
+            <div id="title"><b> The Profile Page Of </b></div> 
+           
+            <div id="name"><b>Md Abu Talha Ibna Riaz Hassan </b></div> 
+        </div>        
+            <div id="details">
+            <div class="course"><b> Course: Web Programming </b> </div>
+            <div class="section"><b> Section : 07</b> </div>
+            <div class="assignment"><b>Assignment: 2  </b></div>
+        </div>
+
+        
+        <div id="_intro"> <a href="profilePage.html#intro">INTRODUCTION</a>  </div>
+
+        <div id="_aboutMe"> <a href="profilePage.html#aboutMe">ABOUT ME</a>  </div>
+        <div id="_accomplishments"> <a href="profilePage.html#accomplishments">ACCOMPLISHMENTS</a>  </div>
+        <div id="_goals"> <a href="profilePage.html#goals">GOALS AND ASPIRATIONS</a>  </div>
+        <div id="_assignment"> <a href="IndividualAssignment.pdf">ASSIGNMENT DETAILS</a>  </div>
+
+        
+    </div>
+            <h1 id="intro">
+                INTRODUCTION
+            </h1>
+            <br><br>
+            
+
+               <div id="myImageOne"> <img  src="myImageOne.jpeg"  style="width:330px ;height:410px"/> <br> <i> My Image </i></div> 
+                
+               <div id="introPara">
+                             <p></p>
+                             My name is Md Abu Talha Ibna Riaz Hassan. My Matric Number is A20EC3022 and this is the assignment of
+                             Web Programming Section 7.
+                             This is my profile page. In here I talk about myself, my hobbies, my accomplishments
+                            and my dreams in life.
+                             
+                            <br> <br>
+                             I am 19 years old, I was born in November 6th, 2003 in Dhaka, Bangladesh. I still live here with my parents and my brother. 
+                             My father is the Vice President of Dhaka Bank and 
+                             my mother is a house wife.
+                            My brother is in high school and he is 13 years old. 
+
+                            I am a very competitive and hard working person. Although I enjoy the company of others I mostly prefer to stay alone and enjoy
+                            my alone time. I am also really into books and music, these are the 2 things that I certainly cannot live without. I mostly like 80s rock and metal bands. 
+                            <br><br>
+                            Some of my favourite bands are: <br>
+
+                            <ul id="list1" >
+                                <li>Nirvana</li>
+                                <li>Black Sabbath</li>
+                                <li>The Rolling Stones</li>
+
+                            </ul>
+                            etc.
+                            <br>
+                            <br>
+                            Some of favourite books are: <br>
+
+                            <ol id="list2" >
+                                <li>The Shining by Stephen King </li>
+                                <li>Crime and punishment by Fyodor Dostoevsky</li>
+                                <li>The Stranger by Albert Camus</li>
+
+                            </ol>
+                            etc.
+
+             
+                         </p>  
+                     
+                    
+                     </div> 
+
+   </div>
+
+
+   <div id="AboutMe">
+   
+            <h1 id="aboutMe">
+                ABOUT ME
+            </h1>
+        </div>
+
+        <div id="aboutMePara">
+
+            <p>
+                I would describe myself as a fun loving, hard-working person. 
+                <br>I like to stay ahead of things and be stress free (although it does not help a lot since I suffer from anxiety).
+                In my spare time, I like to go to fancy restaurants with my friends.
+                I go to these places not because I like to eat alot, but because I enjoy the company of my closest friends.
+                
+               
+                I also like to program and make toy programs during my spare time. <br>I am really into technology and I want to get a job as a programmer after I graduate.
+                <br>Some of the programming languages that I have used are Java, Javascript, C++, Python, C etc.<br> I am really into problem solving and mathematics so I hope I get a job as a Backend Engineer when I graduate.
+
+                <br><br> <b> I also want to know about you!, fill in the form below and submit so we can get to know each other. </b>
+
+
+            </p>
+
+
+        </div>
+
+        <div id="form">
+            <h1>WRITE ABOUT YOU !!!</h1>
+
+            <form action="action_page.php">
+             <fieldset>
+             <legend>All About You</legend> 
+             What is your name?:
+             <input type="text" name="textbox" value="Zuccerberg" style="width: 380px; height: 20px;"><br/>
+             <br>
+             How old are you?:
+             <input type="text" name="textbox" value="19" style="width: 400px; height: 20px;"><br/>
+             <br>
+            
+             
+           
+
+             What is your gender<br>
+             <input type="radio" name="r1" value="v1" checked >Male<br>
+             <input type="radio" name="r1" value="v2" >Female<br>
+             <input type="radio" name="r1" value="v3">Other<br><br>
+
+             Which of the following is your favourite programming language<br>
+             <input type="radio" name="r2" value="v1" checked  >C++<br>
+             <input type="radio" name="r2" value="v2" >Python<br>
+             <input type="radio" name="r2" value="v3">Javascript<br>
+             <input type="radio" name="r2" value="v4">C<br><br>
+
+             What do you like to do the most?<br>
+             <input type="checkbox" name="c1" value="v1"> Read <br>
+             <input type="checkbox" name="c2" value="v2" checked> Program/Code <br>
+             <input type="checkbox" name="c3" value="v3" checked> Play video games <br>
+             <input type="checkbox" name="c4" value="v4" checked> Hangout with friends <br><br>
+     
+     
+     
+                Do you like Computer Science?:
+                 <select name = "Color" style="width: 400px; height: 30px;">
+                     <option value = "v1" selected > Yes, I do </option>
+                     <option value = "v2"  > Not Really </option>
+                     <option value = "v3"  > No opinion </option>
+                 </select>
+
+            
+     
+             <br>
+             
+             <br>
+             <br>
+             <textarea name="message" rows="10" cols="100"> Tell me more ! </textarea><br>
+             <input type="submit" value="Submit">
+             </fieldset>
+             </form>
+
+  
+          
+       
+        </div>
+
+        <div id="accomImage">
+            <img src="hat.png" style="width: 30px; height: 30px;" />
+        </div>
+        
+        <div id="Accomplishments">
+
+            
+            <h1 id="accomplishments">
+                ACCOMPLISHMENTS
+            </h1>
+        </div>
+
+        <div id="AccomplishmentsPara">
+            <p>
+                All the things I have accomplished untill now are <br>academic accomplishments. 
+                <br>I was neither much of a sports and nor was I blessed with the <br> talents of 
+                singing/ dancing. 
+                <br>Here is a table that summaries all my achievements in short.
+
+            </p>
+
+        </div>
+
+      
+        
+
+
+        <div id="tableOne">
+            <table border = "1" style = "width: 680px; height: 800px;" >
+                <tr>
+                    <th>Institute</th>
+                    <th>Exam Type/Uni Semester</th>
+                    <th>Achievement</th>
+                    <th>Year</th>
+                </tr>
+
+                <tr>
+                    <td style = "text-align: center;" rowspan="2">High School</td>
+                    <td style = "text-align: center;">O level (IGCSE)</td>
+                    <td style = "text-align: center;">6 As 1B</td>
+                    <td style = "text-align: center;">2017</td>
+                </tr>
+
+                <tr>
+                    <td style = "text-align: center;">A level (IAL)</td>
+                    <td style = "text-align: center;">2A* 1A</td>
+                    <td style = "text-align: center;">2020</td>
+                </tr>
+
+                <tr>
+                    <td style = "text-align: center;" rowspan="2">UNIVERSITY</td>
+                    <td style = "text-align: center;">Semester 1</td>
+                    <td style = "text-align: center;">4.0 GPA (Dean's List Award Winner) </td>
+                    <td style = "text-align: center;">2021</td>
+                </tr>
+
+                <tr>
+                    <td style = "text-align: center;">Semester 2</td>
+                    <td style = "text-align: center;">4.0 GPA (Dean's List Award Winner) </td>
+                    <td style = "text-align: center;">2022</td>
+                </tr>
+
+
+        
+        
+            </table>
+
+        </div>
+
+        <div id="trophyImage">
+            <img src="trophy.png" style="width: 600px; height: 600px;" />
+        </div>
+        
+
+        <div id="Goals">
+            <h1 id="goals">
+                GOALS AND ASPIRATIONS
+            </h1>
+        </div>
+
+        <div id="goalsPara">
+
+            <p>
+                My goal in life is to be happy and keep the people around me happy. Above all I want to be good and kind person.
+                <br> Jordan Peterson once said <u><i>"You should write down where you want to see yourself in 5 years.<br> That way it will always be in your head that you need to accomplish something"</i></u>
+                So I too made a list. In that list I wrote: <br>
+                <ol type="1">
+                    <li>I want to be successful</li>
+                    <li>I want to be make my parents proud</li>
+                    <li>I want to give back to my parents</li>
+                    <li>I want to have life long friendships with the friends I currently have</li>
+                    <li>And I want to adopt a cat</li>
+                </ol>
+
+                With all this said, I want to conclude my profile here, be sure to follow me on everything. The links are given below.
+
+            </p>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+            <div id="footer">
+              <p >
+                   <u>FOLLOW ME ON SOCIAL MEDIA TO GET TO KNOW ABOUT MY LIFE! </u><br>
+<br>
+<a href="https://www.facebook.com/nixha.03/"> <img src="fbLogo.png" ALIGN="left" style="width:30px ;height:30px"/>  BE MY FRIEND ON FACEBOOK !</a><br>
+<br>
+<a href="https://www.instagram.com/nietzshee/"> <img src="instaLogo.png" ALIGN="left" style="width:30px ;height:30px"/>  FOLLOW ME ON INSTAGRAM !</a><br>
+<br>
+<a href="https://www.youtube.com/channel/UCXxdwiTfF-v_iKZ4iE_DbNg/featured"> <img src="ytLogo.png" ALIGN="left" style="width:30px ;height:30px"/>  SUBCRIBE TO MY YOUTUBE CHANNEL !</a><br>
+<br>
+<u>EMAIL ME FOR INQUIRIES</u><br>
+                <br>
+
+                <a href="mailto:talhabw@graduate.utm.my"> <img src="mailLogo.png" ALIGN="left" style="width:32px ;height:32px"/>MY MAIL !</a><br><br>
+
+                <a href="GPAcalculator.html"> <img src="GPACALC.png" ALIGN="left" style="width:32px ;height:32px"/> HERE IS THE LINK TO THE GPA CALCULATOR!!</a>
+                </p>
+
+
+                <p id="lastLine">
+                    Thank you for reading
+                </p>
+    
+
+            </div>
+            
+
+
+
+
+            
+
+
+
+
+
+
+
+       
+
+
+  
+           
+        </div>
+        
+
+ 
+    </div>
+
+</body>
+
+
+
+
+</html>

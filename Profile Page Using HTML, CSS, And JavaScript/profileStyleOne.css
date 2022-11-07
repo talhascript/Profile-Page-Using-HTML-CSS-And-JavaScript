@@ -1,0 +1,348 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+  background-image: url("backgroundImage.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
+
+
+
+#container{
+  display:grid ;
+  grid-template-columns: repeat(5,0.5fr);
+  grid-template-rows: 168px 50px ;
+  
+
+
+}
+
+#header{
+  grid-column: 1/6;
+  grid-row: 1/2;
+  background-color: darkorchid ;
+  border: 2px solid pink;
+  border-bottom: 2px solid yellow;
+
+
+  
+}
+
+  
+#title{
+    font-size: 30px;
+    display: grid;
+    margin-top: 11px;
+    
+  }
+
+
+#name{
+    font-size: 50px;
+    margin-top: 8px;
+    display: grid;
+   
+   
+  }
+
+#details{
+  grid-column: 5/6;
+  grid-row: 1/2;
+ 
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 12px;
+      display: flex;
+      font-size: 20px;
+      display: grid;
+      color: antiquewhite;
+      text-decoration: solid;
+      
+  }
+  
+
+.section{
+    margin-top: 5px;
+}
+
+.assignment{
+  margin-bottom: 10px;
+
+}
+
+
+a:link {text-decoration: none;}
+
+a:hover {background-color: lightblue;
+color: darkblue;}
+
+a:visited {text-decoration: burlywood;} 
+
+p::first-letter {text-transform: uppercase;}
+
+h1{
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+
+
+
+#_intro{
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: 2px solid black;
+  background-color: lightcoral;
+  font-size: 25px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  font-weight: 900;
+  text-shadow: 5px;
+}
+
+
+#_aboutMe{
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border: 2px solid black;
+  background-color: orange;
+  font-size: 25px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  font-weight: 900;
+}
+
+
+#_accomplishments{
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  border: 2px solid black;
+  background-color: lightgreen;
+  font-size: 22px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  font-weight: 900;
+}
+
+#_goals{
+  display: grid;
+  grid-column: 4/5;
+  grid-row: 2/3;
+  border: 2px solid black;
+  background-color: yellow;
+  font-size: 22px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  font-weight: 900;
+}
+
+#_assignment{
+  display: grid;
+  grid-column: 5/6;
+  grid-row: 2/3;
+  border: 2px solid black;
+  background-color: lightpink;
+  font-size: 22px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  font-weight: 900;
+}
+
+#intro{
+  padding: 30px;
+  float: inline-end;
+  text-align: center;
+}
+
+
+#lastLine{
+  text-align: center;
+
+}
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#introPara{
+  justify-content: center;
+  align-content: flex-start;
+  font-size: 20px ;
+  font-weight: 600;
+  padding: 30px;
+
+
+}
+
+#myImageOne{
+  font-size: 20px ;
+  font-weight: 200;
+  float: right;
+  padding:9px;
+  border: 3px solid plum ;
+  margin-right: 7px;
+  text-align: center;
+  text-decoration: solid;}
+  
+
+#AboutMe{
+
+  padding: 35px;
+  text-align: center;
+  background-image: url("background2.jpg");
+  background-repeat: repeat-y;
+  
+}
+
+#aboutMePara{
+
+  float: center;
+  font-size: 20px ;
+  font-weight: 600;
+  padding: 30px;
+  background-image: url("background2.jpg");
+  background-repeat: repeat-y;
+  
+
+
+}
+
+#form{
+  float: center;
+  padding: 250px;
+  font-size: 30px ;
+  background-image: url("background2.jpg");
+  background-repeat: repeat-y;
+  bottom: 300px;
+
+
+}
+
+
+
+#list1{
+  list-style-type: circle;
+}
+#list2{
+  list-style: lower-roman;
+}
+
+
+#Accomplishments{
+  padding: 35px;
+
+  text-align: center;
+ 
+}
+
+#AccomplishmentsPara{
+
+  align-content:center;
+  font-size: 20px ;
+  font-weight: 600;
+  padding: 30px;
+
+}
+
+#tableOne{
+ 
+  left: 780px;
+  right: 140px;
+  bottom:170px;
+  position: relative;
+
+
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+
+}
+
+#accomImage{
+
+  position: relative;
+  left: 540px;
+  top: 88px;
+ 
+  
+}
+
+#Goals{
+
+  position: relative;
+  bottom: 790px;
+
+  border-left: 5px solid pink;
+  border-right: 5px solid pink;
+  border-top: 5px solid pink;
+
+  align-content:center;
+
+  font-size: 20px ;
+  font-weight: 600;
+  padding: 30px;
+  background-color: rgb(179, 57, 179);
+
+  
+}
+
+#trophyImage{
+  position: relative;
+  bottom:800px;
+  left:80px;
+  
+
+}
+
+#goalsPara{
+  position: relative;
+  bottom: 815px;
+
+
+  align-content:center;
+
+  border-left: 5px solid pink;
+  border-right: 5px solid pink;
+  border-bottom: 5px solid pink;
+  
+
+  font-size: 20px ;
+  font-weight: 600;
+  padding: 30px;
+  background-color: rgb(179, 57, 179);
+
+}
+
+
+#footer{
+  
+  align-content: stretch;
+  border: 5px solid black;
+  background-color: lightslategray;
+
+  font-size: 20px;
+  position: relative;
+  bottom: 815px;
+
+  font-weight: 900;
+  padding: 10px;
+  
+}
+
+#wholePage{
+  width:1450px;
+  margin-left: auto;
+  margin-right: auto;
+}
